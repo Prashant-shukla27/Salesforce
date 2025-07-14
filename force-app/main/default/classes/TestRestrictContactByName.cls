@@ -47,7 +47,7 @@ public class TestRestrictContactByName {
     @isTest
     static void testInvalidContactUpdate() {
         // First insert a valid contact
-        Contact c = new Contact(FirstName='Jake', LastName='ValidName'); 
+        Contact c = new Contact(FirstName='Jake', LastName='ValidName');
         insert c;
         
         // Try to update it to an invalid last name
